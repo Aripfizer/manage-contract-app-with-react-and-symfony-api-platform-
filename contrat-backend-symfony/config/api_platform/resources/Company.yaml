@@ -1,0 +1,4 @@
+resources:
+  App\Entity\Company:
+    normalizationContext:
+      groups: ["company"]

@@ -1,0 +1,9 @@
+# api/config/serializer/Client.yaml
+App\Entity\Client:
+  attributes:
+    id:
+      groups: ["contract"]
+    firstname:
+      groups: ["contract"]
+    lastname:
+      groups: ["contract"]

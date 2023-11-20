@@ -1,0 +1,27 @@
+# api/config/serializer/Contract.yaml
+App\Entity\Contract:
+  attributes:
+    id:
+      groups: ["contract"]
+    contract_number:
+      groups: ["contract"]
+    date_of_issue:
+      groups: ["contract"]
+    effective_date:
+      groups: ["contract"]
+    due_date:
+      groups: ["contract"]
+    net_prime:
+      groups: ["contract"]
+    ttc_prime:
+      groups: ["contract"]
+    tax:
+      groups: ["contract"]
+    accessory:
+      groups: ["contract"]
+    automobile_guarantee_fund:
+      groups: ["contract"]
+    client:
+      groups: ["contract"]
+    company:
+      groups: ["contract"]

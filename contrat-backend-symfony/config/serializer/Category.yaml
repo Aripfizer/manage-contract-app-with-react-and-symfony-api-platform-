@@ -1,0 +1,7 @@
+# api/config/serializer/Category.yaml
+App\Entity\Category:
+    attributes:
+        id:
+            groups: ['company', 'contract']
+        name:
+            groups: ['company', 'contract']

@@ -1,0 +1,10 @@
+resources:
+  App\Entity\Contract:
+    normalizationContext:
+      groups: ["contract"]
+    operations:
+      ApiPlatform\Metadata\GetCollection:
+        method: GET
+      ApiPlatform\Metadata\Post:
+        method: POST
+        processor: App\State\ContractStateProcessor
